@@ -1,0 +1,47 @@
+.landing-container{
+    width: auto;
+    height: 80vh;
+    margin: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+
+.buttons-btn{
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem  0;
+
+    
+}
+
+.buttons-btn a{
+    width: 40rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+
+font: 700 1.3rem Archivo;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+text-decoration: none;
+color: var(--lighter-color);
+transition: background 0.2s;
+
+-webkit-box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+}
+
+.buttons-btn a.dashboard{
+    background: var(--first-color);
+}
+
+.buttons-btn a.dashboard:hover{
+    background: #013f75;
+}

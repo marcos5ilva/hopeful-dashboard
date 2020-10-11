@@ -1,0 +1,61 @@
+/*==== COLORS ====*/
+:root{
+    --first-color: #015fb4;
+    --second-color: #fbe36c;
+    --third-color:#83cbff;
+    --dark-color:#4c4c4c;
+    --light-color:#edf6fe;
+    --lighter-color:#ffffff;
+}
+
+/*==== FONTS ====*/
+:root{
+    --body-font: 'Raleway', sans-serif;
+    --title-font: 'Krona One', sans-serif;
+    --big-font-size: 2em;
+    --h2-font-size: .95rem;
+    --h3-font-size: 0.9rem;
+    --normal-font-size: 0.85rem;
+}
+
+/*=== BASE ===*/
+*,::before, ::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--dark-color);
+    background-color:var(--light-color);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+a{
+    text-decoration: none;
+}
+
+.buttons-btn {
+    width: 10rem;
+    height: 3rem;
+}
+
+.large-card{
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--lighter-color);
+    border-radius: 5px;
+    -webkit-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
+-moz-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
+box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
+
+}

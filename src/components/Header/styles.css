@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: var(--third-color);
+    min-height: 100px;
+}
+
+header h1{
+    color: var(--light-color);
+    margin: 15px;
+}
+
+header img{
+    margin-left: 2%;
+}

@@ -1,0 +1,139 @@
+
+.post-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    height: auto;
+}
+
+
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+
+.post-header h2{
+    text-align: left;
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+}
+
+.post-header ul {
+  display: flex;
+  align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 20%;
+}
+
+
+
+ .post-header li{
+    margin-left: 5px;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
+ .post-header a{
+   
+    display: inline-block;
+    
+}
+
+.post-header i{
+    color: var(--dark-color)
+}
+
+
+.time-frame{
+    margin-left: 10px;
+}
+.time-frame i {
+    color: var(--dark-color);
+}
+
+.metrics-header .time-frame{
+ width: 100%;
+}
+
+
+
+
+
+
+.social-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.social-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title-icon{
+    font-size: 1.6rem;
+    margin-right: 40px;
+    color: var(--first-color);
+}
+.social-img{
+    background-color: var(--first-color);
+    border: 1px solid var(--first-color);
+    border-radius: 5px;
+    margin: 0px 0 2px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#social-img-icon{
+    font-size: 3.2rem;
+    margin-left: 5px;
+    padding: 10px;
+    color: var(--lighter-color);
+}
+
+.social-card ul{
+    width: 100%;
+    margin:0 5px 10px 0;
+}
+
+.social-card li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    margin-top: 5px;
+    background-color: var(--lighter-color);
+    border: 1px solid var(--light-color);
+    border-radius: 5px;
+        -webkit-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
+    -moz-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
+    box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
+    }
+    .social-card i{
+        font-size: 1.5rem;
+        margin: 2px 5px 2px 5px;
+        color: var(--first-color);
+    }
+
+    #post-likes{
+        margin-left: 45px;
+    }
+
+    #post-views{
+        margin-left: 40px;
+    }
+
+    #post-comments{
+        margin-left: 15px;
+    }

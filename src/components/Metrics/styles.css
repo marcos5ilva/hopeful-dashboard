@@ -1,0 +1,115 @@
+
+
+
+
+.metrics-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+
+.metrics-header h2{
+    text-align: left;
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+}
+
+.metrics-header ul {
+  display: flex;
+  align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 20%;
+}
+
+
+
+ .metrics-header li{
+    margin-left: 5px;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
+ .metrics-header a{
+   
+    display: inline-block;
+    
+}
+
+.metrics-header i{
+    color: var(--dark-color)
+}
+
+
+.time-frame{
+    margin-left: 10px;
+}
+.time-frame i {
+    color: var(--dark-color);
+}
+
+.metrics-header .time-frame{
+ width: 100%;
+}
+
+
+.metrics-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.metrics-container h3{
+    display: inline-block;
+   border-bottom: 1px solid black;
+   width: 10rem;
+   height: 1.5rem;
+
+}
+
+.metrics-container input[type='radio']:checked:after {
+    color: var(--first-color);
+}
+
+.metrics-container i{
+    color: var(--first-color);
+    font-size: 1.3rem;
+    margin: 0 5px 0px 25px ;   
+}
+
+.metrics-right ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.metrics-container li{
+    margin-bottom: 8px;
+}
+
+.metrics-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metrics-center strong{
+    display: inline-block;
+    height: 2rem;
+}
+
+#dot-orange{
+    font-size: .8rem;
+    color: #fbe36c;
+    margin: 0 2px 0 0 ;
+}
+
+#dot-green{
+    font-size: .8rem;
+    color:green;
+    margin: 0 2px 0 0 ;
+}
