@@ -1,0 +1,84 @@
+
+.donations-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    height: auto;
+}
+
+
+
+.donations-header  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+
+.donations-header  h2{
+    text-align: left;
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+}
+
+.donations-header  ul {
+  display: flex;
+  align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 20%;
+}
+
+
+
+ .donations-header  li{
+    margin-left: 5px;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+}
+
+ .donations-header  a{
+   
+    display: inline-block;
+    
+}
+
+
+.donations-header  i{
+    color: var(--dark-color)
+}
+
+
+.time-frame{
+    margin-left: 10px;
+}
+.time-frame i {
+    color: var(--dark-color);
+}
+
+.donations-header .time-frame{
+ width: 100%;
+}
+
+
+
+
+
+ .chart-total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+
+.chart-card i{
+    font-size: 8rem;
+    color: var(--first-color);
+}

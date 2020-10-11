@@ -27,7 +27,7 @@ html{
 }
 
 body{
-    margin: var(--header-height) 0 0 0;
+   margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--dark-color);
@@ -46,16 +46,4 @@ a{
 .buttons-btn {
     width: 10rem;
     height: 3rem;
-}
-
-.large-card{
-    margin: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: var(--lighter-color);
-    border-radius: 5px;
-    -webkit-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
--moz-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
-
 }

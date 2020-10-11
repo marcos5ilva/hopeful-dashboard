@@ -6,7 +6,7 @@ import './styles.css'
 const Donations = () => {
     return (
         <section class="large-card donations">
-            <div class="card-header">
+            <div class="donations-header">
                 <h2>Donations</h2>
                 <ul class="icons" id="icon-don">
                     <li class="icon-item"><a href="#"><span><i class="fas fa-plus"></i></span></a></li>

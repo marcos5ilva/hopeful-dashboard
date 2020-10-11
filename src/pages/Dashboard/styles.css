@@ -1,15 +1,13 @@
 
-.landing-container{
-    width: auto;
-    height: 80vh;
-    margin: auto;
-    
+.dashboard-container{
+   margin: auto !important;
+   
     }
 
-    .landing-container h2{
+    .dashboard-container h2{
         font-size: var(--h2-font-size);
     }
-    .landing-container h3{
+    .dashboard-container h3{
         font-size: var(--h3-font-size);
     }
 
@@ -17,6 +15,7 @@
         margin: 15px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 10px;
         background-color: var(--lighter-color);
         border-radius: 5px;
         -webkit-box-shadow: 8px 16px 13px -14px rgba(76,76,76,1);
@@ -27,8 +26,9 @@
 
 
     @media(min-width: 1100px){
-        .container{
+        .dashboard-container{
             max-width: 1300px;
+            margin: auto !important;
             height: auto;
             display: grid;
     

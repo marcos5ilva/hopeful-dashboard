@@ -14,6 +14,7 @@ const Posts = () => {
                     <li class="icon-item"><a href=""><span><i class="fas fa-cog"></i></span></a></li>
                 </ul>
             </div>
+
             <div class="post-container">
                 <div class="social-card">
                     <div class="social-title">
@@ -50,7 +51,7 @@ const Posts = () => {
                 </div>
                 <div class="social-card">
                     <div class="social-title">
-                        <span><i class="fab fa-instagram-square" id="title-icon"></i></span>
+                        <span><i class="fab fa-facebook" id="title-icon"></i></span>
                         <h4>Hopeful Inc</h4>
                     </div>
                     <div class="social-img">
@@ -66,7 +67,7 @@ const Posts = () => {
                 </div>
                 <div class="social-card">
                     <div class="social-title">
-                        <span><i class="fab fa-instagram-square" id="title-icon"></i></span>
+                        <span><i class="fab fa-twitter" id="title-icon"></i></span>
                         <h4>Hopeful Inc</h4>
                     </div>
                     <div class="social-img">
