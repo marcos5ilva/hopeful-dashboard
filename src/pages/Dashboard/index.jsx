@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import fakeAPI from '../../services/fakeApi';
 import { UserContext } from "../../UserContext";
 import Donations from '../../components/Donations';
 import Posts from '../../components/Posts';
@@ -11,9 +12,19 @@ import './styles.css'
 
 const Dashboard = () => {
 
+
+    const [userInfo, setUserInfo] = useState({});
+
+    useEffect(() => {
+        const data = fakeAPI;
+        console.log(data)
+        setUserInfo(data);
+
+    }, []);
+
     return (
         <>
-            <UserContext.Provider value="User context">
+            <UserContext.Provider value={{ userInfo, setUserInfo }}>
                 <Header />
                 <div className="dashboard-container">
                     <Metrics />

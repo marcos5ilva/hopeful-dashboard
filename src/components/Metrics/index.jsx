@@ -42,7 +42,7 @@ const Metrics = () => {
                     <h3>Views</h3>
                     <ul>
                         <li><span><i class="fas fa-circle" id="dot-orange"></i></span> 0% <span><i
-                            class="fab fa-facebook"></i></span> {userInfo}</li>
+                            class="fab fa-facebook"></i></span> {userInfo.name}</li>
                         <li> <span><i class="fas fa-circle" id="dot-green"></i></span> 0% <span><i
                             class="fab fa-instagram-square"></i></span> Hopeful Inc</li>
 

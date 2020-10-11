@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
 
-import { UserContext } from "./UserContext";
 import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
 

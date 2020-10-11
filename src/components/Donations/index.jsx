@@ -1,4 +1,6 @@
 import React from 'react';
+import BarChart from '../../components/BarChart'
+
 import { Link } from 'react-router-dom';
 
 import './styles.css'
@@ -15,10 +17,11 @@ const Donations = () => {
                 </ul>
             </div>
             <div class="chart-total">
-                <h2>Total $0.0</h2>
+                <h2>Total $70,000</h2>
             </div>
             <div class="chart-card">
-                <span><i class="fas fa-chart-bar"></i></span>
+                <BarChart />
+
             </div>
         </section>
     )

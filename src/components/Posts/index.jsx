@@ -35,7 +35,7 @@ const Posts = () => {
 
                 <div class="social-card">
                     <div class="social-title">
-                        <span><i class="fab fa-instagram-square" id="title-icon"></i></span>
+                        <span><i class="fab fa-linkedin" id="title-icon"></i></span>
                         <h4>Hopeful Inc</h4>
                     </div>
                     <div class="social-img">
