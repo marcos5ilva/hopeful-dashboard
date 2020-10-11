@@ -6,7 +6,7 @@ import './styles.css'
 const Highlights = () => {
     return (
         <section class="large-card highlights">
-            <div class="card-header">
+            <div class="highlights-header">
                 <h2>Hopeful Highlights</h2>
                 <span><i class="fas fa-calendar-alt"></i> Last 7 days</span>
 
