@@ -1,4 +1,5 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 
 import { UserContext } from "../../UserContext";
@@ -6,7 +7,8 @@ import './styles.css'
 
 const Metrics = () => {
 
-    const userInfo = useContext(UserContext);
+    const userInfo = useContext(UserContext) || {};
+
 
     return (
         <section class="large-card metrics">
@@ -41,10 +43,10 @@ const Metrics = () => {
                 <div id="metrics-right">
                     <h3>Views</h3>
                     <ul>
-                        <li><span><i class="fas fa-circle" id="dot-orange"></i></span> 0% <span><i
+                        <li key="1"><span><i class="fas fa-circle" id="dot-orange"></i></span>0% <span><i
                             class="fab fa-facebook"></i></span> {userInfo.name}</li>
                         <li> <span><i class="fas fa-circle" id="dot-green"></i></span> 0% <span><i
-                            class="fab fa-instagram-square"></i></span> Hopeful Inc</li>
+                            class="fab fa-instagram-square"></i></span> {userInfo.name}</li>
 
                     </ul>
                 </div>
